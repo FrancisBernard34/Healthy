@@ -11,6 +11,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./style.css" />
+    <script src="https://kit.fontawesome.com/1eaf800913.js" crossorigin="anonymous"></script>
     <title>Healthy</title>
   </head>
   <body>
@@ -18,11 +19,19 @@
       <div class="logo">
         <img src="./images/estetoscopio.jpg" alt="logo" />
         <h1>Healthy</h1>
+        <i class="fa-solid fa-bars" id="menu"></i>
+      </div>
+      <div class="menu-active" id="menu-active">
+        <p></p>
+        <h2 id="section1-btn">Café da manhã</h2>
+        <h2 id="section2-btn">Almoço</h2>
+        <h2 id="section3-btn">Lanche</h2>
+        <h2 id="section4-btn">Jantar</h2>
       </div>
     </header>
     <main>
       <div class="center">
-        <section class="breakfast">
+        <section class="breakfast" id="section-1">
           <h1>Café da manhã</h1>
           <table>
             <thead>
@@ -244,7 +253,7 @@
             </tr>
           </table>
         </section>
-        <section class="lunch">
+        <section class="lunch" id="section-2">
           <h1>Almoço</h1>
           <table>
             <thead>
@@ -371,6 +380,8 @@
               <td>1 porção pequena - 130g</td>
             </tr>
           </table>
+        </section>
+        <section class="snack" id="section-3">
           <h1>Lanche</h1>
           <table>
             <tr>
@@ -538,7 +549,7 @@
             </tr>
           </table>
         </section>
-        <section class="dinner">
+        <section class="dinner" id="section-4">
           <h1>Jantar</h1>
           <table>
             <thead>
@@ -806,4 +817,5 @@
       </div>
     </main>
   </body>
+  <script src="./script.js"></script>
 </html>

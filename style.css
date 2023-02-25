@@ -29,9 +29,50 @@ body {
   font-size: 44px;
 }
 
+i {
+  z-index: 1;
+  color: white;
+  font-size: 40px;
+  margin-left: auto;
+  margin-right: 5px;
+}
+
+.menu-active {
+  display: none;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 0;
+  width: 200px;
+  height: 300px;
+  text-align: center;
+  color: white;
+  border: 2px solid white;
+  background-color: #f01264;
+}
+
+.menu-active p {
+  width: inherit;
+  height: 70px;
+}
+
+.menu-active h2 {
+  background-color: #6905b6;
+  margin: 7px 3px 15px 3px;
+  border: 1px solid white;
+  padding: 2px;
+  font-size: 22px;
+  font-family: 'Roboto Mono', monospace;
+  font-weight: bold;
+}
+
 main {
   font-family: 'Roboto Mono', monospace;
   color: white
+}
+
+h1 {
+  font-size: 36px;
 }
 
 .center {
